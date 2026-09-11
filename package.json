@@ -1,0 +1,28 @@
+{
+  "name": "omnia-georgia-launch",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "qa": "node scripts/quality-check.mjs",
+    "release:check": "npm run qa && npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "animejs": "4.5.0",
+    "motion": "12.23.12",
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
