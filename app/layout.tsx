@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   title: { default: "OMNIA — ციფრული მომსახურება ბიზნესისთვის", template: "%s | OMNIA" },
   description: site.description.ka,
   applicationName: "OMNIA",
+  manifest: "/manifest.webmanifest",
   authors: [{ name: "OMNIA" }],
   creator: "OMNIA",
   publisher: "OMNIA",
